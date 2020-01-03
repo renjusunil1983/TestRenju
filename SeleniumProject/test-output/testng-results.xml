@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26101" started-at="2019-10-19T23:17:39 IST" finished-at="2019-10-19T23:18:05 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26101" started-at="2019-10-19T23:17:39 IST" finished-at="2019-10-19T23:18:05 IST">
+      <class name="ParameterizationPack.Neethu">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ParameterizationPack.Neethu@7d907bac]" name="beforeMethod" is-config="true" duration-ms="21741" started-at="2019-10-19T23:17:39 IST" finished-at="2019-10-19T23:18:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:ParameterizationPack.Neethu@7d907bac]" name="f" duration-ms="4276" started-at="2019-10-19T23:18:01 IST" finished-at="2019-10-19T23:18:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[neethu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- ParameterizationPack.Neethu -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="TestExplorer(failed)" parallel="tests">
+    <parameter name="drivervar" value="explorer"/>
+    <classes>
+      <class name="CrossBrowsingPack.CrossBrowsingSample">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- CrossBrowsingPack.CrossBrowsingSample -->
+    </classes>
+  </test> <!-- TestExplorer(failed) -->
+</suite> <!-- Failed suite [Suite] -->
